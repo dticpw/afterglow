@@ -1,6 +1,6 @@
-# 余晖航线 · AFTERGLOW v0.2
+# Lumen Drift v0.2
 
-一个可直接在浏览器中游玩的太空生存射击原型。使用原生 HTML、CSS、JavaScript 和 Canvas 2D，星空、行星、飞船和粒子效果均由程序绘制，无需安装依赖。
+一个可直接在浏览器中游玩的太空生存射击原型。使用原生 HTML、CSS、JavaScript 和 Canvas 2D，星空、行星、飞船、流光拖尾和粒子效果均由程序绘制，无需安装依赖。
 
 **[在线试玩](https://koa-ol.com/games/afterglow/)** · [Koa-OL Games](https://koa-ol.com/games/)
 
@@ -56,3 +56,5 @@ node --test tests/flight.test.cjs
 ```
 
 这条命令运行飞行回归测试，不安装依赖、不改存档。
+
+飞船新增随速度变化的青绿／淡紫流光拖尾，冲刺时加强，停车后自然消散；减少动态效果偏好下缩短拖尾并关闭光晕。游戏名称已更新为 Lumen Drift，原仓库、试玩 URL 和存档键保留兼容。
